@@ -9,5 +9,13 @@ public class Horse extends Mammals{
 		this.place = place;
 	}
 
+	protected String getPlace() {
+		return place;
+	}
+
+	protected void setPlace(String place) {
+		this.place = place;
+	}
+
 	
 }
