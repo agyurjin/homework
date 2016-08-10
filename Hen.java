@@ -2,9 +2,8 @@ package classes;
 
 public class Hen extends Birds{
 
-	Hen(String type, boolean fly, float weight, float speed, int legs, String colour) {
-		super(type, fly, weight, speed, legs, colour);
+	public Hen(float weight, String colour, String foodToEat) {
+		super("domestic", 2, 2, weight, colour, foodToEat);
 	}
-
 	
 }

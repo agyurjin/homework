@@ -3,12 +3,14 @@ package classes;
 public class Birds extends Animal{
 
 	private String type;
-	private boolean fly;
+	private int legs;
+	private int wings;
 	
-	Birds(String type, boolean fly, float weight, float speed, int legs, String colour) {
-		super(weight, speed, legs, colour);
+	public Birds(String type, int legs, int wings, float weight, String colour, String foodToEat) {
+		super(weight, colour, foodToEat);
 		this.type = type;
-		this.fly = fly;
+		this.legs = legs;
+		this.wings = wings;
 	}
 
 	protected String getType() {
@@ -19,13 +21,19 @@ public class Birds extends Animal{
 		this.type = type;
 	}
 
-	protected boolean isFly() {
-		return fly;
+	protected int getLegs() {
+		return legs;
 	}
 
-	protected void setFly(boolean fly) {
-		this.fly = fly;
+	protected void setLegs(int legs) {
+		this.legs = legs;
 	}
 
-	
+	protected int getWings() {
+		return wings;
+	}
+
+	protected void setWings(int wings) {
+		this.wings = wings;
+	}
 }

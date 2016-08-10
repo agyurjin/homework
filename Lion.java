@@ -2,9 +2,7 @@ package classes;
 
 public class Lion extends Mammals{
 
-	Lion(String type, float weight, float speed, int legs, String colour) {
-		super(type, weight, speed, legs,colour);
+	public Lion(float weight, String colour, String foodToEat) {
+		super("wild", 4, weight, colour, foodToEat);
 	}
-
-	
 }
