@@ -5,11 +5,13 @@ public abstract class Animal {
 	private float weight;
 	private float speed;
 	private int legs;
+	private String colour;
 	
-	Animal(float weight, float speed, int legs){
+	Animal(float weight, float speed, int legs, String colour){
 		this.weight = weight;
 		this.speed = speed;
 		this.legs = legs;
+		this.colour = colour;
 	}
 	
 	protected float getWeight() {
@@ -29,6 +31,14 @@ public abstract class Animal {
 	}
 	protected void setLegs(int legs) {
 		this.legs = legs;
+	}
+
+	protected String getColour() {
+		return colour;
+	}
+
+	protected void setColour(String colour) {
+		this.colour = colour;
 	}
 	
 	

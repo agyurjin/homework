@@ -5,8 +5,8 @@ public class Mammals extends Animal {
 
 	private String type;
 	
-	Mammals(String type, float weight, float speed, int legs) {
-		super(weight, speed, legs);
+	Mammals(String type, float weight, float speed, int legs, String colour) {
+		super(weight, speed, legs, colour);
 		this.type = type;
 	}
 

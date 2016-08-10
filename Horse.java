@@ -4,8 +4,8 @@ public class Horse extends Mammals{
 
 	private String place;
 	
-	Horse(String place, String type, float weight, float speed, int legs) {
-		super(type, weight, speed, legs);
+	Horse(String place, String type, float weight, float speed, int legs, String colour) {
+		super(type, weight, speed, legs, colour);
 		this.place = place;
 	}
 

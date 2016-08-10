@@ -5,8 +5,8 @@ public class Birds extends Animal{
 	private String type;
 	private boolean fly;
 	
-	Birds(String type, boolean fly, float weight, float speed, int legs) {
-		super(weight, speed, legs);
+	Birds(String type, boolean fly, float weight, float speed, int legs, String colour) {
+		super(weight, speed, legs, colour);
 		this.type = type;
 		this.fly = fly;
 	}
