@@ -6,5 +6,12 @@ public class Eagle extends Birds{
 		super("wild", 2, 2, weight, colour, foodToEat);
 	}
 
+	@Override
+	public String toString() {
+		return "Eagle [getType()=" + getType() + ", getLegs()=" + getLegs() 
+		+ ", getWings()=" + getWings() + ", getWeight()=" + getWeight() 
+		+ ", getColour()=" + getColour() + ", getFoodToEat()=" + getFoodToEat() + "]";
+	}
+
 
 }
